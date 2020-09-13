@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+
+}
+
+body { 
+    background: #000
+} 
+
+.center{ 
+    max-width:1280px;
+    margin: 0 auto; 
+    padding: 0 2%;
+}
+
+.clear { 
+clear: both;
+}
+
+header {
+    background: black;
+    padding: 12px;
+}
+
+
+.header-left {
+    float: left;
+    margin-top: 10px;
+}
+/*
+    Menu 1 - Header 
+
+*/
+
+.header-left img{
+    max-width: 100px;
+}
+
+.menu-header {
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+    top: -10px; 
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/**/ 
+
+.header-right { 
+    display: inline-block;    
+    float: right;
+}
+
+.menu-header a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.menu-header li {
+    display: inline-block;
+    margin-right: 15px;
+ }
+
+ .search, .notifications {
+     display: inline-block;
+ }
+
+ .header-right i {
+     margin:0 5px;
+     margin-top: 10px;
+     color: white;
+    font-size: 22px;
+    font-weight: bold;
+ }
+ .header-right a {
+     color: white;
+     text-decoration: none;
+ }
+
+.notifications {
+    position: relative;
+}
+
+.circle-notifications {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10x;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    vertical-align: 5px;
+    top: -20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px; 
+    height: 20px;
+    border-radius: 10px; 
+    background: #e50914
+    
+    
+}
+
+
